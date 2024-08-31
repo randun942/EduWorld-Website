@@ -1,0 +1,139 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    
+    
+}
+.container {
+    display:flex;
+    width:100%;
+    height:100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fffdfd;
+    overflow-y: auto;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 525;
+}
+
+.sidebar ul li.active, .sidebar ul li:hover {
+    background-color: rgb(24, 29, 56);
+    color: rgb(253, 253, 253);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    margin-right: 0px;
+    background-color: rgb(24, 29, 56);
+    color: rgb(255, 255, 255);
+}
+
+.chapter-content {
+    display: none;
+    margin-right: 25%;
+}
+
+.chapter-content.active {
+    display: block;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family:'Nunito', sans-serif;
+    padding: 10px 20px;
+    background-color: #06BBCC;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06BBCC;
+}
+
+
+
+/* chapter 05 */
+/* Styles for Chapter 5 Content */
+#chapter5 {
+    background-color: #f7f9fc; /* Subtle background for a clean look */
+    padding: 25px; /* More space around content */
+    border-radius: 10px; /* Rounded corners for visual appeal */
+    font-family: Arial, sans-serif; /* Modern font */
+    line-height: 1.7; /* Improved readability */
+}
+
+#chapter5 h1 {
+    color: #2e4053; /* Dark blue for main heading */
+    font-size: 2.8em; /* Larger size for emphasis */
+    margin-bottom: 25px; /* Space below the heading */
+    text-align: center; /* Center alignment */
+}
+
+#chapter5 h2 {
+    color: #34495e; /* Slightly lighter blue for subheadings */
+    font-size: 2.2em; /* Smaller than the main heading */
+    margin-top: 30px; /* Space above subheadings */
+    margin-bottom: 15px; /* Space below subheadings */
+}
+
+#chapter5 h3 {
+    color: #3b5568; /* Different shade for sub-subheadings */
+    font-size: 1.8em; /* Intermediate size */
+    margin-top: 20px; /* Space above */
+    margin-bottom: 10px; /* Space below */
+}
+
+#chapter5 p {
+    font-size: 1.2em; /* Slightly larger for readability */
+    color: #2c3e50; /* Darker gray for text */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+#chapter5 ul {
+    list-style-type: square; /* Square bullet points */
+    margin-left: 30px; /* Indentation */
+    margin-bottom: 25px; /* Space below lists */
+}
+
+#chapter5 ul li {
+    margin-bottom: 12px; /* Space between list items */
+    font-size: 1.1em; /* Slightly smaller than paragraphs */
+    color: #34495e; /* Matching color with subheadings */
+}
+#chapter5 h4{
+    color: #2c3e50;
+}
+
+
+
+
+
